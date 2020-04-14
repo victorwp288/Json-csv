@@ -18,7 +18,6 @@ public class JsonHandler {
         try (FileReader fileReader = new FileReader(jsonString)) {
 
             Object object = parser.parse(fileReader);
-            JSONArray world = new JSONArray();
             JSONArray inf = new JSONArray();
             JSONArray jsonArray = (JSONArray) object;
 
